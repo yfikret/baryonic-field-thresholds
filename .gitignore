@@ -1,0 +1,8 @@
+sparc_archives
+galaxies.pickle
+profiles/*
+plots/images
+plots/image_notes.md
+plots/.obsidian
+src/__pycache__
+output

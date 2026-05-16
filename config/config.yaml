@@ -1,0 +1,63 @@
+# general
+
+mode: "make_plots" # "make_plots", "run_stats"
+use_cached_profiles: True
+
+gas_proportion_cutoff: 0.2
+local_window: 0.2 # 0.2, 0.3
+
+relation_type: "squared_ratio" # "squared_ratio", "ratio", "square_difference_over_r" 
+
+total_gas_cutoffs: 2
+
+# generate_plots parameters
+
+plot_M_L_DISK: 0.5
+plot_M_L_BULGE: 0.7
+
+A_I_ratio: 5
+
+save_plots_path: "plots/images"
+save_markdown_path: "plots/image_notes.md"
+
+plot_mode: "compact" # "compact", "full", "velocity"
+
+plot_BG_magnitude: 1.2e-10
+
+save_plots: True
+use_buckets: False
+
+file_format: "png" # "png", "pdf"
+
+# run_stats parameters
+
+stats_M_L_DISK_BULGE_pairs: [[0.4, 0.6], [0.5, 0.7], [0.6, 0.8], [1.0, 1.0]]
+
+table_type: "print" # "print", "latex_full", "latex_compact"
+
+stats_BG: [1.2e-10, ]
+#stats_BG: [1.0e-10, 1.2e-10, 1.4e-10],
+
+#stats_BG: [0.6e-10, 0.7e-10, 0.8e-10, 0.9e-10, 1.0e-10]
+#stats_BG: [1.3e-10, 1.4e-10, 1.5e-10, 1.6e-10, 1.7e-10]
+
+latex_output_path: "output"
+#latex_output_path: 
+
+# statistical constants
+
+# debug plots
+
+threshold_types: "all"  
+
+sample_galaxies: False
+
+#sample_galaxies: ["NGC4217", "NGC7331"]
+#sample_galaxies: ["DDO154", ]
+#sample_galaxies: ["NGC2976", ]
+
+# archive filepaths
+SPARC_archive_path: "sparc_archives/Rotmod_LTG.zip"
+SPARC_parsed_path: "sparc_archives/galaxies.pickle"
+
+profiles_path: "profiles"
