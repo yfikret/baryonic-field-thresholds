@@ -155,3 +155,8 @@ If you make use of this implementation or the associated baryonic field proxy me
   url={https://github.com/yfikret/baryonic-field-thresholds}
 }
 ```
+
+## Acknowledgements
+
+* The author acknowledges the use of automated tools for coding assistance, documentation drafting, and structural optimization during the development of this repository.
+* Dynamic kinematics data provided courtesy of the SPARC (Spitzer Photometry and Accurate Rotation Curves) database.
