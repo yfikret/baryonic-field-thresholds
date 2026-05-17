@@ -6,9 +6,9 @@ This project develops a computational pipeline to evaluate empirical relationshi
 
 ## Technical Report
 
-The complete manuscript detailing the physics background, full methodology, and statistical outcomes is available as a compiled PDF:
+The complete manuscript detailing the physics background, full methodology, and statistical outcomes is available as a compiled PDF.
 
-👉 **[Download the Manuscript from the Latest Release](https://github.com/yfikret/baryonic-field-thresholds/releases/latest)**
+**[Download the Manuscript from the Latest Release](https://github.com/yfikret/baryonic-field-thresholds/releases/latest)**
 
 *(Note: The PDF is attached as a release asset.)*
 
