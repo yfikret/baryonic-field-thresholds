@@ -1,8 +1,6 @@
 # Threshold Structure in Baryonic Field Proxies and Galactic Rotation Curves
 
-This repository contains the official Python implementation for the paper **"Threshold Structure in Baryonic Field Proxies and Galactic Rotation Curves"**.
-
-This project develops a computational pipeline to evaluate empirical relationships between baryonic field proxies and galactic rotation-curve regimes using the SPARC dataset.
+This project evaluates empirical relationships between baryonic field proxies and galactic rotation-curve regimes using the SPARC dataset.
 
 ## Technical Report
 
